@@ -7,27 +7,11 @@ using System.Threading.Tasks;
 namespace Mathmagician
 {
     public class Even : Integer
-
-
     {
-        [TestMethod]
-        public void EvenEnsureICanCreateInstance()
-
+        public Even()
         {
-           
-            Even my_evens = new Even();
-            Assert.IsNotNull(my_evens);
-            
+            Step = 2;
+            First = 2;
         }
-
-        [TestMethod]
-        public void EvenEnsureICanGetFirst()
-        {
-            //arrange
-
-            Even my_evens = new Even();
-
-        }      
-
     }
 }

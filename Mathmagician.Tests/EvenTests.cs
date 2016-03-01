@@ -48,7 +48,7 @@ namespace Mathmagician.Tests
 
             //act
 
-            int[] actual -my_Evens.GetSequence(10);
+            int[] actual = my_Evens.GetSequence(10);
             int[] expected = new int[] { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
 
             //assert
