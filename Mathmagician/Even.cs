@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mathmagician
 {
-    public class EvenTests
+    public class Even : Integer
 
 
     {
