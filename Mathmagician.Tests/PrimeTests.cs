@@ -13,6 +13,7 @@ namespace Mathmagician.Tests
             Assert.IsNotNull(my_primes);
         }
 
+
         [TestMethod]
         public void PrimeEnsureICanGetFirst()
         {
